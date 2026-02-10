@@ -3,10 +3,11 @@ Navigation stack for orion VI rover
 
 # create a dev enivroment
 
+### create dev container
 ```
 distrobox create --image docker.io/library/ubuntu:noble --home ~/Distrobox/Orion --nvidia --name ros-developement-experience && distrobox enter ros-developement-experience
 ```
-
+### add repositories
 ```
 sudo apt install software-properties-common -y && sudo add-apt-repository universe -y
 ```
@@ -37,11 +38,23 @@ sudo sh -c 'echo "deb [arch=amd64,arm64 signed-by=/etc/apt/keyrings/packages.mic
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch -y 
 ```
 
-```
-sudo apt update && sudo apt install code fastfetch -y
+### install VScode ROS2 and fastfetch
 
+```
+sudo apt update && sudo apt install code fastfetch ros-dev-tools ros-jazzy-desktop -y
+
+```
+
+
+```
+echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
+source /opt/ros/jazzy/setup.bash
 ```
 
 ```
 distrobox-export code
+```
+
+```
+git clone https://github.com/knmicrochip/orion-vi-navigation-stack.git
 ```
