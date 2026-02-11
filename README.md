@@ -52,7 +52,7 @@ source /opt/ros/jazzy/setup.bash
 ```
 
 ```
-distrobox-export code
+distrobox-export --app code
 ```
 
 ```
