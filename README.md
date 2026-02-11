@@ -59,7 +59,7 @@ distrobox-export code
 git clone https://github.com/knmicrochip/orion-vi-navigation-stack.git
 ```
 
-## Install dependencies [WIP]
+## Install dependencies 
 
 install librealsense2
 https://github.com/realsenseai/librealsense/blob/master/doc/distribution_linux.md
@@ -75,15 +75,23 @@ sudo tee /etc/apt/sources.list.d/librealsense.list
 sudo apt-get update
 ```
 
-export USER_DOCUMENTS_DIR=/custom/docs
-
 ```
 sudo apt update && sudo apt install librealsense2-utils
 ```
 
+bypass errors: (I have no idea what it's about)
 ```
-sudo apt install ros-jazzy-realsense2-* -y
+sudo dpkg --configure librealsense2-udev-rules
 ```
+
+```
+sudo apt update && sudo apt install ros-jazzy-realsense2-* -y
+```
+
+```
+sudo apt install ros-$ROS_DISTRO-rtabmap-ros
+```
+
 
 install ros wrapper for realsense
 https://github.com/realsenseai/realsense-ros?tab=readme-ov-file#installation-on-ubuntu
