@@ -98,3 +98,7 @@ https://github.com/realsenseai/realsense-ros?tab=readme-ov-file#installation-on-
 
 install rtab-map 
 https://deepwiki.com/introlab/rtabmap_ros/2-installation-and-setup
+
+```
+example use: ros2 run szuflada slam
+```
