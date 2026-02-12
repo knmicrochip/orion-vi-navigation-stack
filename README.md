@@ -100,5 +100,6 @@ install rtab-map
 https://deepwiki.com/introlab/rtabmap_ros/2-installation-and-setup
 
 ```
-example use: ros2 run szuflada slam
+example use first node: ros2 run szuflada slam
+example realsense map: ros2 launch rtabmap_examples realsense_d435i_color.launch.py 
 ```
