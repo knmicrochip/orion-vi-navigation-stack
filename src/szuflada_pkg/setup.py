@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'szuflada'
+package_name = 'szuflada_pkg'
 
 setup(
     name=package_name,
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'slam = szuflada.slam:main'
+            'slam_node = szuflada_pkg.slam_node:main'
         ],
     },
 )
