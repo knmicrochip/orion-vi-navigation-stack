@@ -15,12 +15,19 @@
 wiadomość mapy topic /mapData
 
 # Sekcja Docker
-
+zbuduj paczkę:
+```
+source install/setup.bash
+colcon build
+```
+zbuduj dockera:
 ```
 docker build -f Dockerfile --tag orion
 ```
-jeśli podman-remote używane to zamienić `docker` na `podmna-remote` (wskazówka: Użyj `alias` w `.bashrc`)
+jeśli podman-remote jest używane to zamienić `docker` na `podmna-remote` (wskazówka: Użyj `alias` w `.bashrc`)
 
+
+uruchom dockera:
 ```
 docker run --rm -it  orion
 ```

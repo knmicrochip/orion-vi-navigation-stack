@@ -61,6 +61,9 @@ RUN export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-inf
 # RUN source /opt/ros/jazzy/setup.bash
 
 COPY . ${WS_DIR}
+
+# RUN colcon build
+
 # Enable apt user dialogs again
 ARG DEBIAN_FRONTEND=dialog
 
