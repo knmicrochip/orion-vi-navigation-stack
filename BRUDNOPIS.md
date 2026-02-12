@@ -2,6 +2,8 @@
 
 - [ ] launchfile
 - [ ] Dockerfile
+  - [x] Podstawowy Dockerfile
+  - [ ] Budowa paczki w Dockerfile
 - [ ] Graf/schemat nawigacji
 - [ ] Konwersja mapy 3D na mapę kosztów
 - [ ] Dobry SLAM to podstawa
@@ -13,6 +15,15 @@
 wiadomość mapy topic /mapData
 
 # Sekcja Docker
+
+```
+docker build -f Dockerfile --tag orion
+```
+jeśli podman-remote używane to zamienić `docker` na `podmna-remote` (wskazówka: Użyj `alias` w `.bashrc`)
+
+```
+docker run --rm -it  orion
+```
 
 # Sekcja organizacja - skróty itp
 
