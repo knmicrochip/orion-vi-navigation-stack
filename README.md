@@ -103,3 +103,7 @@ https://deepwiki.com/introlab/rtabmap_ros/2-installation-and-setup
 example use first node: ros2 run szuflada slam
 example realsense map: ros2 launch rtabmap_examples realsense_d435i_color.launch.py 
 ```
+
+### Gazebo
+
+https://gazebosim.org/docs/harmonic/install_ubuntu/
