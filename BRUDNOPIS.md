@@ -16,3 +16,6 @@ wiadomość mapy topic /mapData
 
 # Sekcja organizacja - skróty itp
 
+## ROS2
+- nazwa paczki {nazwa}_pkg
+- nazwa węzła {nazwa}_node
