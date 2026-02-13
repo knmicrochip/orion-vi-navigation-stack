@@ -14,6 +14,16 @@
             }
         },
         {
+            "label": "Build for ARM",
+            "type": "shell",
+            "command": "bash -i -c 'source install/setup.bash && colcon build && docker build -f Dockerfile --tag orion --arch=arm64'",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
             "label": "Run Container",
             "type": "shell",
             "command": "bash -i -c 'docker run --rm -it orion'",

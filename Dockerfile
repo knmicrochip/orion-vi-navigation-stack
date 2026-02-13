@@ -6,6 +6,9 @@ FROM ubuntu:noble
 ENV WS_DIR="/orion_ws"
 WORKDIR ${WS_DIR}
 
+# this is a variable that contains what platform the container is build for
+ARG TARGETPLATFORM
+
 # Copy your code into the folder (see later for better alternatives!)
 
 
