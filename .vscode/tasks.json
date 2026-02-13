@@ -6,7 +6,7 @@
         {
             "label": "Colcon and Docker build",
             "type": "shell",
-            "command": "bash -i -c 'source install/setup.bash && colcon build && docker build -f Dockerfile --tag orion'",
+            "command": "bash -i -c 'source install/setup.bash && colcon build && docker build -f Dockerfile --tag orion --arch=amd64'",
             "problemMatcher": [],
             "group": {
                 "kind": "build",

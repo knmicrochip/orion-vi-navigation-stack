@@ -62,6 +62,7 @@ RUN export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-inf
     rm -rf /var/lib/apt/lists/*
 
 # RUN source /opt/ros/jazzy/setup.bash
+LABEL name='orion'
 
 COPY . ${WS_DIR}
 

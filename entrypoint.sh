@@ -8,10 +8,12 @@ source install/setup.bash
 
 
 
-echo "hello world"
+# echo "hello world"
 
-ros2 topic list
+# ros2 topic list
 
 # colcon build
 
-ros2 run szuflada_pkg slam_node 
+# ros2 run szuflada_pkg slam_node 
+
+ros2 launch launch/szuflada_slam.py
