@@ -12,6 +12,19 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "Run Container",
+            "type": "shell",
+            "command": "bash -i -c 'docker run --rm -it orion'",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new",
+                "close": false
+            },
+            "problemMatcher": []
         }
     ]
 }
