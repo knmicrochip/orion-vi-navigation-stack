@@ -9,6 +9,7 @@
 - [ ] Dobry SLAM to podstawa
 - [ ] linter
 - [ ] wifi na szufladzie
+- [ ] zamienić .e57 na jakiś normalny format 
 
 # Sekcja ROS2
 
@@ -48,5 +49,6 @@ docker run --rm -it  orion
 
 ### Dzień przed
 
- - test nawigacji na mapie od organizatorów
+ ~~- test nawigacji na mapie od organizatorów~~
+  rtab-map nie obsługuje importu
     - jeśli nie działa to robimy własną mapę
