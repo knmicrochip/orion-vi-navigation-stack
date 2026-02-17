@@ -16,7 +16,7 @@ class MinimalPublisher(Node):
         self._publisher = self.create_publisher(String, 'my_topic', 10)
 
         # Periodically call method
-        self._timer = self.create_timer(0.5, self._timer_callback)
+        self._timer = self.create_timer(5.0, self._timer_callback)
 
         # Counter for messages sent
         self._counter = 0
