@@ -3,10 +3,12 @@
 - [ ] launchfile
 - [ ] Dockerfile
   - [x] Podstawowy Dockerfile
-  - [ ] Budowa paczki w Dockerfile
+  - [ ] Budowa paczki w Dockerfile (`colcon`)
 - [ ] Graf/schemat nawigacji
 - [ ] Konwersja mapy 3D na mapę kosztów
 - [ ] Dobry SLAM to podstawa
+- [ ] linter
+- [ ] wifi na szufladzie
 
 # Sekcja ROS2
 
@@ -37,3 +39,14 @@ docker run --rm -it  orion
 ## ROS2
 - nazwa paczki {nazwa}_pkg
 - nazwa węzła {nazwa}_node
+
+# PLAN na ERC
+
+### Przed
+
+ - konwersja mapy .e57 do jakiejś używalnej
+
+### Dzień przed
+
+ - test nawigacji na mapie od organizatorów
+    - jeśli nie działa to robimy własną mapę
