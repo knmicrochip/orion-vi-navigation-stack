@@ -99,6 +99,9 @@ https://github.com/realsenseai/realsense-ros?tab=readme-ov-file#installation-on-
 install rtab-map 
 https://deepwiki.com/introlab/rtabmap_ros/2-installation-and-setup
 
+---
+# Other stuff
+
 ```
 example use first node: ros2 run szuflada slam
 example realsense map: ros2 launch rtabmap_examples realsense_d435i_color.launch.py 
