@@ -1,7 +1,7 @@
 # TODO
 
-- [ ] launchfile
-- [ ] Dockerfile
+- [x] launchfile
+- [x] Dockerfile
   - [x] Podstawowy Dockerfile
   - [ ] Budowa paczki w Dockerfile (`colcon`)
 - [ ] Graf/schemat nawigacji
@@ -9,7 +9,11 @@
 - [ ] Dobry SLAM to podstawa
 - [ ] linter
 - [ ] wifi na szufladzie
-- [ ] zamienić .e57 na jakiś normalny format 
+- [ ] ~~zamienić .e57 na jakiś normalny format~~
+- [ ] nav2 i jego pluginy
+  - [ ] TFy
+  - [ ] UDRF i SDF do symulacji 
+  - [ ] Odometria
 
 # Sekcja ROS2
 
@@ -52,3 +56,17 @@ docker run --rm -it  orion
  ~~- test nawigacji na mapie od organizatorów~~
   rtab-map nie obsługuje importu
     - jeśli nie działa to robimy własną mapę
+
+
+# Sieć
+
+esp szuflada ip: ping 192.168.1.50 
+
+rasberrka ip:  ping 192.168.1.1
+
+router stół ip: ping 192.168.1.101
+
+router szuflada ip: ping 192.168.1.102
+
+ustawić manualnie ip na laptopie podłączonym do switcha na stole.
+
