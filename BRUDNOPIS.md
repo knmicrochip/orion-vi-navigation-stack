@@ -11,9 +11,11 @@
 - [ ] wifi na szufladzie
 - [ ] ~~zamienić .e57 na jakiś normalny format~~
 - [ ] nav2 i jego pluginy
+- [ ] Gazebo
   - [ ] TFy
   - [ ] UDRF i SDF do symulacji 
   - [ ] Odometria
+  - [ ] Kamery
 
 # Sekcja ROS2
 
