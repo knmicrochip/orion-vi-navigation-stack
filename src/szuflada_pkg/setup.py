@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'slam_node = szuflada_pkg.slam_node:main'
+            'telemetry_node = szuflada_pkg.telemetry_node:main'
         ],
     },
 )
