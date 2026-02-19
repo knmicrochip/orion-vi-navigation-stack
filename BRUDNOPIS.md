@@ -20,6 +20,9 @@
   - [ ] podgląd kamer
 - [ ] spisać hasła do różnych rzeczy sieciowych 
 - [ ] otworzyć ssh na rasberrkę
+- [ ] node który zamienia odczyt z enkoderów na odometrię
+- [ ] detekcja arucomarkerów
+  - [ ] pre-definiowane kordynaty tych markerów
 
 # Sekcja ROS2
 
