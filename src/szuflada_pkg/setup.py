@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='ludrol',
     maintainer_email='jot.s.gam@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Package to operate yellow szuflda robot, test vehicle before rover.',
+    license='Apache',
     extras_require={
         'test': [
             'pytest',
