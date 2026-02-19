@@ -79,7 +79,16 @@ def generate_launch_description():
 				executable='slam_node',
 				name='szuflada',
 				arguments=['']
-				)
+				),
+			Node(
+				package='robot_localization',
+				executable='ekf_node',
+				name='ekf_filter_node',
+				output='screen',
+				parameters=[
+					'../config/szuflada_ekf.yaml'
+				]
+    		)
 
 		]
 	)
