@@ -8,14 +8,18 @@
 - [ ] Konwersja mapy 3D na mapę kosztów
 - [ ] Dobry SLAM to podstawa
 - [ ] linter
-- [ ] wifi na szufladzie
+- [x] wifi na szufladzie
 - [ ] ~~zamienić .e57 na jakiś normalny format~~
 - [ ] nav2 i jego pluginy
 - [ ] Gazebo
   - [ ] TFy
   - [ ] UDRF i SDF do symulacji 
-  - [ ] Odometria
+  - [ ] Odometria i filtry kalmana
   - [ ] Kamery
+- [ ] Rozbudowa apki do sterowania 
+  - [ ] podgląd kamer
+- [ ] spisać hasła do różnych rzeczy sieciowych 
+- [ ] otworzyć ssh na rasberrkę
 
 # Sekcja ROS2
 
