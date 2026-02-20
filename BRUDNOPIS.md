@@ -21,9 +21,11 @@
   - [ ] Podgląd kamer
 - [ ] Spisać hasła do różnych rzeczy sieciowych 
 - [ ] Otworzyć ssh na rasberce
+  - [ ] Sprawdzić kolejkowanie
 - [ ] Node który zamienia odczyt z enkoderów na odometrię
 - [ ] Detekcja arucomarkerów
   - [ ] Pre-definiowane kordynaty tych markerów
+- [ ] Empiricznie sprawdzić macierze do filtru kalmana
 
 # Sekcja ROS2
 
