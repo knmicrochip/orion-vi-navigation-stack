@@ -7,22 +7,23 @@
 - [ ] Graf/schemat nawigacji
 - [ ] Konwersja mapy 3D na mapę kosztów
 - [ ] Dobry SLAM to podstawa
-- [ ] linter
-- [x] wifi na szufladzie
+- [ ] Linter
+- [x] Wifi na szufladzie
 - [ ] ~~zamienić .e57 na jakiś normalny format~~
-- [ ] nav2 i jego pluginy
+- [ ] Nav2 i jego pluginy
 - [ ] Gazebo
   - [ ] TFy
   - [ ] UDRF i SDF do symulacji 
-  - [ ] Odometria i filtry kalmana
+  - [x] filtry kalmana
+  - [ ] Odometria
   - [ ] Kamery
 - [ ] Rozbudowa apki do sterowania 
-  - [ ] podgląd kamer
-- [ ] spisać hasła do różnych rzeczy sieciowych 
-- [ ] otworzyć ssh na rasberrkę
-- [ ] node który zamienia odczyt z enkoderów na odometrię
-- [ ] detekcja arucomarkerów
-  - [ ] pre-definiowane kordynaty tych markerów
+  - [ ] Podgląd kamer
+- [ ] Spisać hasła do różnych rzeczy sieciowych 
+- [ ] Otworzyć ssh na rasberce
+- [ ] Node który zamienia odczyt z enkoderów na odometrię
+- [ ] Detekcja arucomarkerów
+  - [ ] Pre-definiowane kordynaty tych markerów
 
 # Sekcja ROS2
 
