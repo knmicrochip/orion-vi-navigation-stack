@@ -12,6 +12,7 @@ def generate_launch_description():
 	vo_parameters={
 		'frame_id':'camera_link',
 		'wait_imu_to_init':True}
+		#add params to reset odom
 
 	vo_remappings=[
 		('imu', '/imu/data'),
@@ -24,7 +25,10 @@ def generate_launch_description():
 		'frame_id':'camera_link',
 		'subscribe_depth':True,
 		'subscribe_odom_info':True,
-		'approx_sync':False}
+		'approx_sync':False,
+		'map_filter_radius':0.0,
+		'map_filter_angle':30.0	
+		}
 
 	slam_remappings=[
 		('imu', '/imu/data'),
