@@ -86,7 +86,7 @@ def generate_launch_description():
 				name='ekf_filter_node',
 				output='screen',
 				parameters=[
-					'../config/szuflada_ekf.yaml'
+					'config/szuflada_ekf.yaml'
 				]
     		)
 
