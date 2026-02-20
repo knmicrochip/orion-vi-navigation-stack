@@ -13,7 +13,7 @@ ekf_filter_node:
 # set to true, no 3D information will be used in your state estimate. Use this if you are operating in a planar
 # environment and want to ignore the effect of small variations in the ground plane that might otherwise be detected
 # by, for example, an IMU. Defaults to false if unspecified.
-        two_d_mode: true
+        two_d_mode: false
 
 # Whether to publish the acceleration state. Defaults to false if unspecified.
         publish_acceleration: true
